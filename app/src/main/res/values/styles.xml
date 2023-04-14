@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="MyRadioButtonStyle" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:textAppearance">@style/MyTextAppearanceRadioButton</item>
+    </style>
+
+    <style name="MyTextAppearanceRadioButton">
+        <item name="android:textSize">@dimen/textSizeRadioButton</item>
+
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="MyTextViewStyle">
+        <item name="fontFamily">?superFont</item>
+        <item name="android:fontFamily">?superFont</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/textSizeTextView</item>
+        <item name="android:letterSpacing">0.0333333333</item>
+    </style>
+
+    <style name="MyBottomNavigationStyle" parent="Widget.MaterialComponents.NavigationView">
+        <item name="android:background">?attr/superColor</item>
+    </style>
+
+    <style name="MyTextAppearanceCaption">
+        <item name="fontFamily">?superFont</item>
+        <item name="android:fontFamily">?superFont</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/textSizeNavigationView</item>
+        <item name="android:letterSpacing">0.0333333333</item>
+    </style>
+
+    <style name="MyMaterialButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">5dp</item>
+        <item name="android:textAppearance">@style/MyTextAppearanceButton</item>
+    </style>
+
+    <style name="MyTextAppearanceButton">
+        <item name="android:textSize">@dimen/textSizeButton</item>
+        <item name="fontFamily">?superFont</item>
+        <item name="android:fontFamily">?superFont</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.0178571429</item>
+    </style>
+
+    <style name="MyTabStyle" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabTextAppearance">@style/MyTextAppearanceTabs</item>
+    </style>
+
+    <style name="MyTextAppearanceTabs">
+        <item name="android:textSize">@dimen/textSizeTabs</item>
+        <item name="fontFamily">?superFont</item>
+        <item name="android:fontFamily">?superFont</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0178571429</item>
+    </style>
+
+    <style name="MyCardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">20dp</item>
+    </style>
+
+
+    <style name="MytTextAppearanceSubtitle1">
+        <item name="fontFamily">?superFont</item>
+        <item name="android:fontFamily">?superFont</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/textSizeTextInput</item>
+        <item name="android:letterSpacing">0.009375</item>
+    </style>
+
+    <style name="MyTextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/cornerRadiusTextInput</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/cornerRadiusTextInput</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/cornerRadiusTextInput</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/cornerRadiusTextInput</item>
+        <item name="hintTextColor">@color/black</item>
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">20</item>
+        <item name="endIconCheckable">true</item>
+        <item name="endIconMode">custom</item>
+    </style>
+
+    <style name="MyTextInputStyleDay" parent="MyTextInputStyle">
+        <item name="boxCornerRadiusTopStart">@dimen/cornerRadiusTextInput</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/cornerRadiusTextInput</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/cornerRadiusTextInput</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/cornerRadiusTextInput</item>
+        <item name="hintTextColor">@color/black</item>
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">20</item>
+        <item name="endIconCheckable">true</item>
+        <item name="endIconMode">custom</item>
+    </style>
+</resources>
