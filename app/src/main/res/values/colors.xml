@@ -20,4 +20,17 @@
     <color name="t200">#64FFDA</color>
     <color name="t400">#1DE9B6</color>
     <color name="t700">#00BFA5</color>
+
+    <color name="DARK_PRIMARY_COLOR">#0288D1</color>
+    <color name="LIGHT_PRIMARY_COLOR">#B3E5FC</color>
+    <color name="PRIMARY_COLOR">#03A9F4</color>
+    <color name="ACCENT_COLOR">#CDDC39</color>
+    <color name="PRIMARY_TEXT">#212121</color>
+    <color name="SECONDARY_TEXT">#757575</color>
+    <!--<color name="DIVIDER_COLOR">#F5F5F5</color>-->
+    <color name="DIVIDER_COLOR">#E8F8FF</color>
+
+
+
+    DARK PRIMARY COLOR
 </resources>
