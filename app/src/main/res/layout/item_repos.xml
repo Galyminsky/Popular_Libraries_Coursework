@@ -1,67 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="5dp"
     android:background="?selectableItemBackground"
+    android:backgroundTint="@color/DIVIDER_COLOR"
     android:clickable="true"
     android:focusable="true"
-    android:padding="10dp">
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardPreventCornerOverlap="false">
 
-    <TextView
-        android:id="@+id/nameRepoText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Name:"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/nameRepo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/languageRepo"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="asdasd" />
-
-    <TextView
-        android:id="@+id/languageRepoText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Language:"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameRepoText" />
-
-    <TextView
-        android:id="@+id/languageRepo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="10dp"
-        android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/languageRepoText"
-        app:layout_constraintTop_toBottomOf="@+id/nameRepo"
-        tools:text="Kotlin" />
-
-    <TextView
-        android:id="@+id/dateCreating"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/languageRepo"
-        tools:text="asdasd" />
-
-    <View
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="5dp"
-        android:background="@android:color/darker_gray"
-        app:layout_constraintTop_toBottomOf="@+id/languageRepo"
-        tools:layout_editor_absoluteX="16dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/nameRepoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/artifika"
+            android:text="Name:"
+            android:textColor="@color/PRIMARY_TEXT"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameRepo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/artifika"
+            android:textColor="@color/SECONDARY_TEXT"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/languageRepoText"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="asdasd" />
+
+        <TextView
+            android:id="@+id/languageRepoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/artifika"
+            android:text="Language:"
+            android:textColor="@color/PRIMARY_TEXT"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameRepoText" />
+
+        <TextView
+            android:id="@+id/languageRepo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/artifika"
+            android:textColor="@color/SECONDARY_TEXT"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/languageRepoText"
+            app:layout_constraintTop_toBottomOf="@+id/nameRepo"
+            tools:text="Kotlin" />
+
+        <TextView
+            android:id="@+id/dateCreating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/artifika"
+            android:textColor="@color/PRIMARY_TEXT"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/languageRepo"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="asdasd" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageRepo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
