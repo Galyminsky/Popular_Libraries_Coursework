@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Popular_Libraries_Coursework</string>
+    <string name="app_name">GithubUser</string>
+    <string name="this_is_the_button">This is the button</string>
+    <string name="button">Button</string>
+    <string name="counter_one">Счетчик 1</string>
+    <string name="counter_two">Счетчик 2</string>
+    <string name="counter_three">Счетчик 3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="repos">Repos:30</string>
+    <string name="name">UserName</string>
 </resources>

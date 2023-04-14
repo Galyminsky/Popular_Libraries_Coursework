@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="user_login_text_size">30sp</dimen>
+    <dimen name="user_item_padding">16dp</dimen>
+    <dimen name="text_input_margin">10dp</dimen>
+    <dimen name="cornerRadiusTextInput">10dp</dimen>
+    <dimen name="image_view_margin10">10dp</dimen>
+    <dimen name="navigation_view_margin8">8dp</dimen>
+    <dimen name="textSizeRadioButton">18sp</dimen>
+    <dimen name="textSizeTextView">15sp</dimen>
+    <dimen name="textSizeTextInput">16sp</dimen>
+    <dimen name="textSizeButton">20sp</dimen>
+    <dimen name="textSizeTabs">20sp</dimen>
+    <dimen name="textSizeNavigationView">14sp</dimen>
+</resources>

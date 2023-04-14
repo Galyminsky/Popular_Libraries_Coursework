@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <attr name="superFont" format="reference" tools:ignore="MissingDefaultResource" />
+    <attr name="superColor" format="reference" tools:ignore="MissingDefaultResource" />
+</resources>
